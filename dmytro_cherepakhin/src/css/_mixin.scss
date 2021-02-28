@@ -1,0 +1,50 @@
+@mixin hidden {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    clip: rect(0 0 0 0);
+}
+
+@mixin positionCenter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@mixin absoluteCentering {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin bgCover($img) {
+    background-image: url($img);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@mixin box-shadow {
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+    transition: all 0.1s ease-in;
+}
+
+@mixin box-shadow-hover {
+    box-shadow: 0 3px 10px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.1s ease-in;
+}
+
+@mixin fontface($fontFamily, $fontStyle, $fontWeight, $fontPath) {
+    @font-face {
+        font-family: $fontFamily;
+        font-style: $fontStyle;
+        font-weight: $fontWeight;
+        src :local(''),
+        url('#{$fontPath}.woff2') format('woff2'),
+        url('#{$fontPath}.woff') format('woff');
+    }
+}

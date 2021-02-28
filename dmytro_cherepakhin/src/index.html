@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cbd</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./mages/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/icons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body class="page">
+    <header class="header" id="header">
+        <nav class="header__menu menu">
+            <ul class="menu__items">
+                <li class="menu__items_item">
+                    <a href="#cbdPotionHealth" class="menu__items_link scroll-to">
+                        home
+                    </a>
+                </li>
+                <li class="menu__items_item">
+                    <a href="#cbdFeaturedProducts" class="menu__items_link scroll-to">
+                        products
+                    </a>
+                </li>
+                <li class="menu__items_item">
+                    <a href="#cbdFFac" class="menu__items_link scroll-to">
+                        faqs
+                    </a>
+                </li>
+                <li class="menu__items_item">
+                    <a href="#cbdContact" class="menu__items_link scroll-to">
+                        contact us
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__logo">
+            <span>cbd</span>
+        </div>
+        <div class="header__rightSideWrapper">
+            <div class="header__logIn">
+                <a href="#" class="header__logIn_link"> login </a>
+            </div>
+            <form action="#" class="header__searchForm">
+                <input type="text" class="header__searchForm_area">
+                <button class="header__searchForm_btn" type="submit">
+                    <img class="header__searchForm_btn-icon" src="./images/Icon_Search.svg" alt="Search">
+                    <span class="header__searchForm_btn-text">search</span>
+                </button>
+            </form>
+            <div class="header__cart cart">
+                <div class=" cart__btn">
+                    <a href="#" class="header__cart_link">cart</a>
+                </div>
+                <div class="cart__window" id="cart__window">
+                    <!-- <div class="cart__window_row-product">
+                        <div class="cart__window_item">
+                            <img class="cart__window_item-img" src="./images/cbdFeaturedProducts_item_2.png"
+                                alt="Black ICE CBD Muscle Rub 200 mg">
+                        </div>
+                        <div class="cart__window_info">
+                            <p class="cart__window_info-name">Black ICE CBD Muscle Rub 200 mg</p>
+                            <div class="cart__window_info-prices">
+                                <p class="cart__window_info-price">$49.99 USD</p>
+                                <p class="cart__window_info-total">$49.99 USD</p>
+                            </div>
+                        </div>
+                        <div class="cart__window_control">
+                            <div class="cart__window_control-plus">
+                                <a href="#" class="cart__window_control-plusLink"></a>
+                            </div>
+                            <div class="cart__window_control-number"><span>1</span></div>
+                            <div class="cart__window_control-minus"><a href="#"
+                                    class="cart__window_control-minusLink"></a></div>
+                        </div> -->
+                    <!-- </div> -->
+                    <div class="cart__window_row-second" id="cart__window_row-second">
+                        <!-- <span id="totalPrice">$0.00 USD</span> -->
+                    </div>
+                    <div class="cart__window_row-third">
+                        <button class="cart__window_btn">Proceed to Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <section class="cbdPotionHealth" id="cbdPotionHealth">
+        <div class="container cbdPotionHealth__container">
+            <div class="cbdPotionHealth__info">
+                <h1 class="cbdPotionHealth__info_title">
+                    Enhancing Life Excelling in Care
+                </h1>
+                <p class="cbdPotionHealth__info_subtitle">
+                    Choose Wisely. Choose CBD.
+                </p>
+
+                <div class="cbdPotionHealth__info_btn">
+                    <a href="#cbdFeaturedProducts" class="cbdPotionHealth__btn scroll-to">
+                        <span>Start Shopping</span>
+                    </a>
+                </div>
+
+                <div class="cbdPotionHealth__info_link">
+                    <a href="#cbdFeaturedProducts" class="cbdPotionHealth__info_link-text scroll-to"><span>See all
+                            products</span>
+                        <img src="./images/bdPotionHealth_Arrow.svg" alt="Go">
+                    </a>
+                </div>
+            </div>
+
+            <div class="cbdPotionHealth__arrow">
+                <a href="#cbdAbout" class="scroll-to">
+                    <p class="cbdPotionHealth__arrowDown">
+
+                    </p>
+                </a>
+            </div>
+
+        </div>
+        <div class="cbdPotionHealth__sideTitle">
+            <span>CBD Potion health</span>
+        </div>
+        <div class="cbdPotionHealth__sideLine"></div>
+    </section>
+    <section class="cbdAbout" id="cbdAbout">
+        <div class="container cbdAbout__container">
+            <div class="cbdAbout__header">
+                <p class="cbdAbout__header_text">We are what we are</p>
+            </div>
+            <div class="cbdAbout__tabs">
+                <div class="cbdAbout__tabs_wrapper">
+                    <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+                    <label class="cbdAbout__tabs_input" for="tab-btn-1">WHAT IS CBD?</label>
+                    <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+                    <label class="cbdAbout__tabs_input" for="tab-btn-2">BENEFITs</label>
+                    <input type="radio" name="tab-btn" id="tab-btn-3" value="">
+                    <label class="cbdAbout__tabs_input" for="tab-btn-3">OUR DIFFERENce</label>
+                </div>
+                <div class="cbdAbout__tabs_frame cbdAbout__frame" id="content-1">
+                    <div class="row">
+                        <div class="col-6 cbdAbout__frame_info">
+                            <div class="cbdAbout__frame_info-wrapper">
+                                <p class="cbdAbout__frame_info-title">
+                                    WHAT IT IS AND HOW
+                                    IT WORKS
+                                </p>
+                                <p class="cbdAbout__frame_info-text">
+                                    CBD is short for cannabidiol. It is a phytocannabinoid found in hemp and known for
+                                    supporting the body and mind in many ways.* Charlotte’s Web products have
+                                    cannabinoids with CBD
+                                    extract. <br><br>
+
+                                    Not to be confused with oil from hemp seeds (which doesn’t contain cannabinoids),
+                                    CBD comes from the flowers and leaves of the hemp plant. <br><br>
+
+                                    Why does CBD work? The human body has a vast network of receptors, the
+                                    endocannabinoid system.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-6 cbdAbout__frame_foto">
+                            <div class="row">
+                                <div class="cbdAbout__frame_foto-wrapper">
+                                    <img src="./images/cdbAbout_picture_1_1.jpg" alt="Nature">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="cbdAbout__frame_foto-wrapper">
+                                    <img src="./images/cdbAbout_picture_1_2.jpg" alt="Nature">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cbdAbout__tabs_frame cbdAbout__frame" id="content-2">
+                    <div class="row">
+                        <div class="col-6 cbdAbout__frame_info">
+                            <div class="cbdAbout__frame_info-wrapper">
+                                <p class="cbdAbout__frame_info-title">
+                                    benefits for everybody
+                                </p>
+                                <p class="cbdAbout__frame_info-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed soluta fuga alias
+                                    impedit
+                                    blanditiis autem mollitia. Ea magni fugit voluptas quidem numquam possimus odio
+                                    mollitia. <br><br>
+                                    Tempora, repellat quo. Eos, veritatis?
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae nemo sunt magnam
+                                    odio
+                                    velit
+                                    ad. <br><br>
+                                    Consectetur at consequatur obcaecati iure minima unde laborum perferendis error,
+                                    pariatur
+                                    similique tempore exercitationem? Aperiam!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-6 cbdAbout__frame_foto">
+                            <div class="row">
+                                <div class="cbdAbout__frame_foto-wrapper">
+                                    <img src="./images/cdbAbout_picture_2_1.jpg" alt="Nature">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="cbdAbout__frame_foto-wrapper">
+                                    <img src="./images/cdbAbout_picture_2_2.jpg" alt="Nature">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cbdAbout__tabs_frame cbdAbout__frame" id="content-3">
+                    <div class="row">
+                        <div class="col-6 cbdAbout__frame_info">
+                            <div class="cbdAbout__frame_info-wrapper">
+                                <p class="cbdAbout__frame_info-title">
+                                    DIFFERENCE, what does it mean?
+                                </p>
+                                <p class="cbdAbout__frame_info-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed soluta fuga alias
+                                    impedit
+                                    blanditiis autem mollitia. Ea magni fugit voluptas quidem numquam possimus odio
+                                    mollitia. <br><br>
+                                    Tempora, repellat quo. Eos, veritatis?
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br><br>
+                                    Vitae nemo sunt magnam
+                                    odio
+                                    velit
+                                    ad,
+                                    consectetur at consequatur obcaecati iure minima unde laborum perferendis error,
+                                    pariatur
+                                    similique tempore exercitationem? Aperiam!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-6 cbdAbout__frame_foto">
+                            <div class="row">
+                                <div class="cbdAbout__frame_foto-wrapper">
+                                    <img src="./images/cdbAbout_picture_3_1.jpg" alt="Nature">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="cbdAbout__frame_foto-wrapper">
+                                    <img src="./images/cdbAbout_picture_3_2.jpg" alt="Nature">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="cbdFeaturedProducts" id="cbdFeaturedProducts">
+        <div class="cbdFeaturedProducts__wrapper">
+            <h2 class="cbdFeaturedProducts__title">
+                CBD Featured Products
+            </h2>
+        </div>
+        <div class="cbdFeaturedProducts__slicker">
+            <div class="cbdFeaturedProducts__card-1 card">
+                <div class="card__wrapper">
+                    <div class="card__wrapper_rating rating">
+                        //= ./includes/_rating.html
+                    </div>
+                    <p class="card__name">
+                        CBD 500 mg Orange Flavor Tincture
+                    </p>
+                    <div class="card__image">
+                        <img src="./images/cbdFeaturedProducts_item_1.png" alt="CBD 500 mg Orange Flavor Tincture">
+                    </div>
+                </div>
+                <div class="card__bottom">
+                    <div class="card__bottom_wrapper">
+                        <span class="card__bottom_price">$49.99 USD</span>
+                    </div>
+                    <div class="card__bottom_btn">
+                        <button class="card__buy" id="card__buy_1">buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cbdFeaturedProducts__card-2 card">
+                <div class="card__wrapper">
+                    <div class="card__wrapper_rating rating">
+                        //= ./includes/_rating.html
+                    </div>
+                    <p class="card__name">
+                        Black ICE CBD Muscle Rub 200 mg
+                    </p>
+                    <div class="card__image">
+                        <img src="./images/cbdFeaturedProducts_item_2.png" alt="CBD 500 mg Orange Flavor Tincture">
+                    </div>
+                </div>
+                <div class="card__bottom">
+                    <div class="card__bottom_wrapper">
+                        <span class="card__bottom_price">$49.99 USD</span>
+                    </div>
+                    <div class="card__bottom_btn">
+                        <button class="card__buy" id="card__buy_2">buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cbdFeaturedProducts__card-3 card">
+                <div class="card__wrapper">
+                    <div class="card__wrapper_rating rating">
+                        //= ./includes/_rating.html
+                    </div>
+                    <p class="card__name">
+                        CBD+Curcumin Coffee 750 mg
+                    </p>
+                    <div class="card__image">
+                        <img src="./images/cbdFeaturedProducts_item_3.png" alt="CBD 500 mg Orange Flavor Tincture">
+                    </div>
+                </div>
+                <div class="card__bottom">
+                    <div class="card__bottom_wrapper">
+                        <span class="card__bottom_price">$79.99 USD</span>
+                    </div>
+                    <div class="card__bottom_btn">
+                        <button class="card__buy" id="card__buy_3">buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cbdFeaturedProducts__card-4 card">
+                <div class="card__wrapper">
+                    <div class="card__wrapper_rating rating">
+                        //= ./includes/_rating.html
+                    </div>
+                    <p class="card__name">
+                        coconut extra large
+                    </p>
+                    <div class="card__image">
+                        <img src="./images/cbdFeaturedProducts_item_4.jpg" alt="CBD 500 mg Orange Flavor Tincture">
+                    </div>
+                </div>
+                <div class="card__bottom">
+                    <div class="card__bottom_wrapper">
+                        <span class="card__bottom_price">$15.55 USD</span>
+                    </div>
+                    <div class="card__bottom_btn">
+                        <button class="card__buy" id="card__buy_4">buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cbdFeaturedProducts__card-5 card">
+                <div class="card__wrapper">
+                    <div class="card__wrapper_rating rating">
+                        //= ./includes/_rating.html
+                    </div>
+                    <p class="card__name">
+                        meringue pie
+                    </p>
+                    <div class="card__image">
+                        <img src="./images/cbdFeaturedProducts_item_5.jpg" alt="CBD 500 mg Orange Flavor Tincture">
+                    </div>
+                </div>
+                <div class="card__bottom">
+                    <div class="card__bottom_wrapper">
+                        <span class="card__bottom_price">$12.70 USD</span>
+                    </div>
+                    <div class="card__bottom_btn">
+                        <button class="card__buy" id="card__buy_5">buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cbdFFaqs" id="cbdFFac">
+        <h2 class="cbdFFaqs_title">Frequently asked questions</h2>
+        <div class="cbdFFaqs__wrapper">
+            <div id="accordion" class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-item-header">
+                        What is Cannabidiol (CBD)?
+                    </div>
+                    <div class="accordion-item-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad itaque quidem voluptatibus
+                        distinctio
+                        impedit ipsa, eum facilis. Quos ab pariatur accusamus! Adipisci doloribus praesentium id ab
+                        omnis?
+                        Ullam, tempore fuga?<br><br>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-item-header">
+                        Is Hemp-Derived Cannabidiol (CBD) Legal?
+                    </div>
+                    <div class="accordion-item-content">
+                        Because CBD from hemp has no psychoactive effects, the purchase, sales, or possession of hemp
+                        CBD
+                        products are completely legal in all 50 States.<br><br>
+                    </div>
+                </div>
+                <div class="accordion-item show">
+                    <div class="accordion-item-header">
+                        Are there any negative side effects?
+                    </div>
+                    <div class="accordion-item-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad itaque quidem voluptatibus
+                        distinctio
+                        impedit ipsa, eum facilis. Quos ab pariatur accusamus! Adipisci doloribus praesentium id ab
+                        omnis?
+                        Ullam, tempore fuga?<br><br>
+                    </div>
+                </div>
+                <div class="accordion-item show">
+                    <div class="accordion-item-header">
+                        Do you offer a return policy?
+                    </div>
+                    <div class="accordion-item-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad itaque quidem voluptatibus
+                        distinctio
+                        impedit ipsa, eum facilis. Quos ab pariatur accusamus! Adipisci doloribus praesentium id ab
+                        omnis?
+                        Ullam, tempore fuga?<br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cbdEveryDay">
+        <div class="cbdEveryDay__slicker">
+            <div class="cbdEveryDay__slicker_wrapper">
+                <div class="cbdEveryDay__slicker_comment cbdEveryDay__comment-1">
+                    <div class="cbdEveryDay__slicker_comment-rating">
+                        <div class="cbdEveryDay__wrapper_rating rating">
+                            //= ./includes/_rating.html
+                        </div>
+                    </div>
+                    <p class="cbdEveryDay__slicker_comment-text">I have tried another product after using this one
+                        successfully, and I am Back for good! The flavour, the lightness of the oil and the health
+                        benefits
+                        I have gotten with this oil are amazing!</p>
+                    <div class="cbdEveryDay__slicker_comment-signatureWrapper">
+                        <p class="cbdEveryDay__slicker_comment-signature">Mark J.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cbdEveryDay__slicker_wrapper">
+                <div class="cbdEveryDay__slicker_comment cbdEveryDay__comment-3">
+                    <div class="cbdEveryDay__slicker_comment-rating">
+                        <div class="cbdEveryDay__wrapper_rating rating">
+                            //= ./includes/_rating.html
+                        </div>
+                    </div>
+                    <p class="cbdEveryDay__slicker_comment-text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit.
+                        Eum corrupti, velit similique vero alias, dolorum aperiam libero excepturi a eos dolore iste
+                        nihil
+                        assumenda ipsa aliquam asperiores nobis illum? Officiis.</p>
+                    <div class="cbdEveryDay__slicker_comment-signatureWrapper">
+                        <p class="cbdEveryDay__slicker_comment-signature">Elise K.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cbdEveryDay__sideTitle">
+            CBD every day
+        </div>
+        <div class="cbdEveryDay__arrow-container"></div>
+    </section>
+    <footer class="cbdContact" id="cbdContact">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 cbdContact__block-1">
+                    <ul class="cbdContact__block_list">
+                        <li>
+                            <a href="#">Privacy Policy </a>
+                        </li>
+                        <li>
+                            <a href="#">Terms of Use </a>
+                        </li>
+                        <li>
+                            <a href="#">Return Policy </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4 cbdContact__block-2">
+                    <p class="cbdContact__block-2_title">CBD</p>
+                    <div class="cbdContact__block-2_social">
+                        <span><img src="./images/icon_Facebook.svg" alt="Facebook"></span>
+                        <span><img src="./images/icon_Twitter.svg" alt="Twitter"></span>
+                        <span><img src="./images/icon_YouTube.svg" alt="YouTube"></span>
+                    </div>
+                </div>
+                <div class="col-4 cbdContact__block-3">
+                    <ul class="cbdContact__block_list">
+                        <li>
+                            <a href="#">SHIPPING INFO </a>
+                        </li>
+                        <li>
+                            <a href="#">RETURNS / EXCHANGES </a>
+                        </li>
+                        <li>
+                            <a href="#">CONTACT </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cbdContact__bottom-wrapper">
+                <form action="#" class="cbdContact__form">
+                    <p class="cbdContact__form_title">
+                        Subscribe to Newsletter
+                    </p>
+                    <div class="cbdContact__form_wrapper">
+                        <input class="cbdContact__form_input" type="email" id="email" placeholder="Email">
+
+                        <button class="cbdContact__form_submit" type="submit">
+                            <img src="./images/arrow-Right.svg" alt="submit">
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </footer>
+    <div class="section__map_map" id="map">
+    </div>
+    <div class="tradeMark-wrapper">
+        <div class="tradeMark">
+            <p>© 2018. CbD health.</p>
+        </div>
+    </div>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDumKM7HEz8xj8FUy5dxnFzDgsbu9XqmH8&callback=initMap">
+    </script>
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>

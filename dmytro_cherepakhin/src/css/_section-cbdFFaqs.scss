@@ -1,0 +1,80 @@
+.cbdFFaqs {
+    background-color: $desertStorm;
+    padding-top: 80px;
+    padding-bottom: 150px;
+
+    &_title {
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        padding-bottom: 40px;
+    }
+
+    &__wrapper {
+        width: 570px;
+        margin: 0 auto;
+
+        border-bottom: 1px solid $swampGreen;
+    }
+}
+
+.accordion {
+
+    &-item-header {
+        padding-left: 55px;
+        width: 100%;
+        padding-top: 25px;
+        font-size: 18px;
+        color: $goBen;
+        letter-spacing: 5px;
+        height: 80px;
+        border-top: 1px solid $swampGreen;
+        position: relative;
+        cursor: pointer;
+
+        &::before {
+            position: absolute;
+            content: '';
+            left: 8px;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 20px;
+            height: 1px;
+            background-color: $goBen;
+        }
+
+        &::after {
+            position: absolute;
+            content: '';
+            left: 8px;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 1px;
+            height: 20px;
+            background-color: $goBen;
+            transition: all .4s ease-in-out;
+        }
+    }
+
+    &-item-content {
+        padding-left: 55px;
+        font-size: 18px;
+        color: black;
+        letter-spacing: .7px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-out;
+        line-height: 40px;
+
+    }
+}
+
+.active {
+
+    &::after {
+        transform: rotate(90deg) translate(-10px, 0);
+        transition: all .4s ease-in-out;
+    }
+}
