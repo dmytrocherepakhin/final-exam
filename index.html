@@ -17,6 +17,10 @@
 <body class="page">
     <header class="header" id="header">
         <nav class="header__menu menu">
+            <input class="menu__hidden" hidden type="checkbox" id="menuBtn">
+            <label class="menu__hidden_btn" aria-label="button menu" for="menuBtn">
+                <span class="menu__hidden_btn-line"></span>
+            </label>
             <ul class="menu__items">
                 <li class="menu__items_item">
                     <a href="#cbdPotionHealth" class="menu__items_link scroll-to">
@@ -59,29 +63,7 @@
                     <a href="#" class="header__cart_link">cart</a>
                 </div>
                 <div class="cart__window" id="cart__window">
-                    <!-- <div class="cart__window_row-product">
-                        <div class="cart__window_item">
-                            <img class="cart__window_item-img" src="./images/cbdFeaturedProducts_item_2.png"
-                                alt="Black ICE CBD Muscle Rub 200 mg">
-                        </div>
-                        <div class="cart__window_info">
-                            <p class="cart__window_info-name">Black ICE CBD Muscle Rub 200 mg</p>
-                            <div class="cart__window_info-prices">
-                                <p class="cart__window_info-price">$49.99 USD</p>
-                                <p class="cart__window_info-total">$49.99 USD</p>
-                            </div>
-                        </div>
-                        <div class="cart__window_control">
-                            <div class="cart__window_control-plus">
-                                <a href="#" class="cart__window_control-plusLink"></a>
-                            </div>
-                            <div class="cart__window_control-number"><span>1</span></div>
-                            <div class="cart__window_control-minus"><a href="#"
-                                    class="cart__window_control-minusLink"></a></div>
-                        </div> -->
-                    <!-- </div> -->
-                    <div class="cart__window_row-second" id="cart__window_row-second">
-                        <!-- <span id="totalPrice">$0.00 USD</span> -->
+                    <div class="cart__window_row-second" id="cart__window_row-second">$0.00 USD
                     </div>
                     <div class="cart__window_row-third">
                         <button class="cart__window_btn">Proceed to Checkout</button>
@@ -89,7 +71,6 @@
                 </div>
             </div>
         </div>
-
     </header>
     <section class="cbdPotionHealth" id="cbdPotionHealth">
         <div class="container cbdPotionHealth__container">
@@ -106,7 +87,6 @@
                         <span>Start Shopping</span>
                     </a>
                 </div>
-
                 <div class="cbdPotionHealth__info_link">
                     <a href="#cbdFeaturedProducts" class="cbdPotionHealth__info_link-text scroll-to"><span>See all
                             products</span>
@@ -114,7 +94,6 @@
                     </a>
                 </div>
             </div>
-
             <div class="cbdPotionHealth__arrow">
                 <a href="#cbdAbout" class="scroll-to">
                     <p class="cbdPotionHealth__arrowDown">
@@ -122,7 +101,6 @@
                     </p>
                 </a>
             </div>
-
         </div>
         <div class="cbdPotionHealth__sideTitle">
             <span>CBD Potion health</span>
@@ -145,7 +123,7 @@
                 </div>
                 <div class="cbdAbout__tabs_frame cbdAbout__frame" id="content-1">
                     <div class="row">
-                        <div class="col-6 cbdAbout__frame_info">
+                        <div class="col-6 col-md-12 cbdAbout__frame_info">
                             <div class="cbdAbout__frame_info-wrapper">
                                 <p class="cbdAbout__frame_info-title">
                                     WHAT IT IS AND HOW
@@ -165,7 +143,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-6 cbdAbout__frame_foto">
+                        <div class="col-6 col-md-12 cbdAbout__frame_foto">
                             <div class="row">
                                 <div class="cbdAbout__frame_foto-wrapper">
                                     <img src="./images/cdbAbout_picture_1_1.jpg" alt="Nature">
@@ -181,7 +159,7 @@
                 </div>
                 <div class="cbdAbout__tabs_frame cbdAbout__frame" id="content-2">
                     <div class="row">
-                        <div class="col-6 cbdAbout__frame_info">
+                        <div class="col-6 col-md-12 cbdAbout__frame_info">
                             <div class="cbdAbout__frame_info-wrapper">
                                 <p class="cbdAbout__frame_info-title">
                                     benefits for everybody
@@ -202,7 +180,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-6 cbdAbout__frame_foto">
+                        <div class="col-6 col-md-12 cbdAbout__frame_foto">
                             <div class="row">
                                 <div class="cbdAbout__frame_foto-wrapper">
                                     <img src="./images/cdbAbout_picture_2_1.jpg" alt="Nature">
@@ -218,7 +196,7 @@
                 </div>
                 <div class="cbdAbout__tabs_frame cbdAbout__frame" id="content-3">
                     <div class="row">
-                        <div class="col-6 cbdAbout__frame_info">
+                        <div class="col-6 col-md-12 cbdAbout__frame_info">
                             <div class="cbdAbout__frame_info-wrapper">
                                 <p class="cbdAbout__frame_info-title">
                                     DIFFERENCE, what does it mean?
@@ -240,7 +218,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-6 cbdAbout__frame_foto">
+                        <div class="col-6 col-md-12 cbdAbout__frame_foto">
                             <div class="row">
                                 <div class="cbdAbout__frame_foto-wrapper">
                                     <img src="./images/cdbAbout_picture_3_1.jpg" alt="Nature">
@@ -254,9 +232,7 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </div>
     </section>
     <section class="cbdFeaturedProducts" id="cbdFeaturedProducts">
@@ -268,21 +244,21 @@
         <div class="cbdFeaturedProducts__slicker">
             <div class="cbdFeaturedProducts__card-1 card">
                 <div class="card__wrapper">
-                    <div class="card__wrapper_rating rating">
+                    <div class="card__wrapper_rating rating" id="rating-1">
                         <ul class="rating__layer-1">
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
                         </ul>
@@ -322,21 +298,21 @@
             </div>
             <div class="cbdFeaturedProducts__card-2 card">
                 <div class="card__wrapper">
-                    <div class="card__wrapper_rating rating">
+                    <div class="card__wrapper_rating rating" id="rating-2">
                         <ul class="rating__layer-1">
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
                         </ul>
@@ -376,21 +352,21 @@
             </div>
             <div class="cbdFeaturedProducts__card-3 card">
                 <div class="card__wrapper">
-                    <div class="card__wrapper_rating rating">
+                    <div class="card__wrapper_rating rating" id="rating-3">
                         <ul class="rating__layer-1">
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
                         </ul>
@@ -430,21 +406,21 @@
             </div>
             <div class="cbdFeaturedProducts__card-4 card">
                 <div class="card__wrapper">
-                    <div class="card__wrapper_rating rating">
+                    <div class="card__wrapper_rating rating" id="rating-4">
                         <ul class="rating__layer-1">
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
                         </ul>
@@ -484,21 +460,21 @@
             </div>
             <div class="cbdFeaturedProducts__card-5 card">
                 <div class="card__wrapper">
-                    <div class="card__wrapper_rating rating">
+                    <div class="card__wrapper_rating rating" id="rating-5">
                         <ul class="rating__layer-1">
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
-                            <li class="rating_star">
+                            <li class="rating_star rating_star-emp">
                                 <img src="./images/Star_empty.svg" alt="star">
                             </li>
                         </ul>
@@ -599,36 +575,36 @@
                         <div class="cbdEveryDay__wrapper_rating rating">
                             <ul class="rating__layer-1">
                                 <li class="rating_star">
-                                    <img src="./images/Star_empty.svg" alt="star">
+                                    <img src="./images/Star_empty2.svg" alt="star">
                                 </li>
                                 <li class="rating_star">
-                                    <img src="./images/Star_empty.svg" alt="star">
+                                    <img src="./images/Star_empty2.svg" alt="star">
                                 </li>
                                 <li class="rating_star">
-                                    <img src="./images/Star_empty.svg" alt="star">
+                                    <img src="./images/Star_empty2.svg" alt="star">
                                 </li>
                                 <li class="rating_star">
-                                    <img src="./images/Star_empty.svg" alt="star">
+                                    <img src="./images/Star_empty2.svg" alt="star">
                                 </li>
                                 <li class="rating_star">
-                                    <img src="./images/Star_empty.svg" alt="star">
+                                    <img src="./images/Star_empty2.svg" alt="star">
                                 </li>
                             </ul>
-                            <ul class="rating__layer-2">
+                            <ul class="rating__layer-2 layer-2-2">
                                 <li class="rating_star">
-                                    <img class=".svg-star" src="./images/Star_Filled.svg" alt="star">
+                                    <img class=".svg-star" src="./images/Star_Filled2.svg" alt="star">
                                 </li>
                                 <li class="rating_star">
-                                    <img src="./images/Star_Filled.svg" alt="star">
+                                    <img src="./images/Star_Filled2.svg" alt="star">
                                 </li>
                                 <li class="rating_star">
-                                    <img src="./images/Star_Filled.svg" alt="star">
+                                    <img src="./images/Star_Filled2.svg" alt="star">
                                 </li>
                                 <li class="rating_star">
-                                    <img src="./images/Star_Filled.svg" alt="star">
+                                    <img src="./images/Star_Filled2.svg" alt="star">
                                 </li>
                                 <li class="rating_star">
-                                    <img src="./images/Star_Filled.svg" alt="star">
+                                    <img src="./images/Star_Filled2.svg" alt="star">
                                 </li>
                             </ul>
                         </div>
@@ -642,43 +618,91 @@
                     </div>
                 </div>
             </div>
-
+            <div class="cbdEveryDay__slicker_wrapper">
+                <div class="cbdEveryDay__slicker_comment cbdEveryDay__comment-2">
+                    <div class="cbdEveryDay__slicker_comment-rating">
+                        <div class="cbdEveryDay__wrapper_rating rating">
+                            <ul class="rating__layer-1">
+                                <li class="rating_star">
+                                    <img src="./images/Star_empty2.svg" alt="star">
+                                </li>
+                                <li class="rating_star">
+                                    <img src="./images/Star_empty2.svg" alt="star">
+                                </li>
+                                <li class="rating_star">
+                                    <img src="./images/Star_empty2.svg" alt="star">
+                                </li>
+                                <li class="rating_star">
+                                    <img src="./images/Star_empty2.svg" alt="star">
+                                </li>
+                                <li class="rating_star">
+                                    <img src="./images/Star_empty2.svg" alt="star">
+                                </li>
+                            </ul>
+                            <ul class="rating__layer-2 layer-2-2">
+                                <li class="rating_star">
+                                    <img class=".svg-star" src="./images/Star_Filled2.svg" alt="star">
+                                </li>
+                                <li class="rating_star">
+                                    <img src="./images/Star_Filled2.svg" alt="star">
+                                </li>
+                                <li class="rating_star">
+                                    <img src="./images/Star_Filled2.svg" alt="star">
+                                </li>
+                                <li class="rating_star">
+                                    <img src="./images/Star_Filled2.svg" alt="star">
+                                </li>
+                                <li class="rating_star">
+                                    <img src="./images/Star_Filled2.svg" alt="star">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="cbdEveryDay__slicker_comment-text">I have tried another product after using this one
+                        successfully, and I am Back for good! The flavour, the lightness of the oil and the health
+                        benefits
+                        I have gotten with this oil are amazing!</p>
+                    <div class="cbdEveryDay__slicker_comment-signatureWrapper">
+                        <p class="cbdEveryDay__slicker_comment-signature">Jonny D.</p>
+                    </div>
+                </div>
+            </div>
             <div class="cbdEveryDay__slicker_wrapper">
                 <div class="cbdEveryDay__slicker_comment cbdEveryDay__comment-3">
                     <div class="cbdEveryDay__slicker_comment-rating">
                         <div class="cbdEveryDay__wrapper_rating rating">
                             <ul class="rating__layer-1">
                                 <li class="rating_star">
-                                    <img src="./images/Star_empty.svg" alt="star">
+                                    <img src="./images/Star_empty2.svg" alt="star">
                                 </li>
                                 <li class="rating_star">
-                                    <img src="./images/Star_empty.svg" alt="star">
+                                    <img src="./images/Star_empty2.svg" alt="star">
                                 </li>
                                 <li class="rating_star">
-                                    <img src="./images/Star_empty.svg" alt="star">
+                                    <img src="./images/Star_empty2.svg" alt="star">
                                 </li>
                                 <li class="rating_star">
-                                    <img src="./images/Star_empty.svg" alt="star">
+                                    <img src="./images/Star_empty2.svg" alt="star">
                                 </li>
                                 <li class="rating_star">
-                                    <img src="./images/Star_empty.svg" alt="star">
+                                    <img src="./images/Star_empty2.svg" alt="star">
                                 </li>
                             </ul>
-                            <ul class="rating__layer-2">
+                            <ul class="rating__layer-2 layer-2-2">
                                 <li class="rating_star">
-                                    <img class=".svg-star" src="./images/Star_Filled.svg" alt="star">
+                                    <img class=".svg-star" src="./images/Star_Filled2.svg" alt="star">
                                 </li>
                                 <li class="rating_star">
-                                    <img src="./images/Star_Filled.svg" alt="star">
+                                    <img src="./images/Star_Filled2.svg" alt="star">
                                 </li>
                                 <li class="rating_star">
-                                    <img src="./images/Star_Filled.svg" alt="star">
+                                    <img src="./images/Star_Filled2.svg" alt="star">
                                 </li>
                                 <li class="rating_star">
-                                    <img src="./images/Star_Filled.svg" alt="star">
+                                    <img src="./images/Star_Filled2.svg" alt="star">
                                 </li>
                                 <li class="rating_star">
-                                    <img src="./images/Star_Filled.svg" alt="star">
+                                    <img src="./images/Star_Filled2.svg" alt="star">
                                 </li>
                             </ul>
                         </div>
@@ -702,7 +726,7 @@
     <footer class="cbdContact" id="cbdContact">
         <div class="container">
             <div class="row">
-                <div class="col-4 cbdContact__block-1">
+                <div class="col-4 col-md-12  cbdContact__block-1">
                     <ul class="cbdContact__block_list">
                         <li>
                             <a href="#">Privacy Policy </a>
@@ -723,7 +747,7 @@
                         <span><img src="./images/icon_YouTube.svg" alt="YouTube"></span>
                     </div>
                 </div>
-                <div class="col-4 cbdContact__block-3">
+                <div class="col-4 col-md-12   cbdContact__block-3">
                     <ul class="cbdContact__block_list">
                         <li>
                             <a href="#">SHIPPING INFO </a>
@@ -750,7 +774,6 @@
                         </button>
                     </div>
                 </form>
-
             </div>
         </div>
     </footer>
