@@ -13,6 +13,13 @@ const gulp = require('gulp'),
     minify = require('gulp-minify'),
     webpack = require('webpack-stream');
 
+var ghPages = require('gulp-gh-pages');
+
+gulp.task('deploy', function () {
+    return gulp.src('./build/**/*')
+        .pipe(ghPages());
+});
+
 const buildFolderName = './build/',
     srcFolderName = './src/';
 

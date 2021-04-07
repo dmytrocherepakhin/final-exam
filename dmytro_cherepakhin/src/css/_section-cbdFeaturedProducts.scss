@@ -1,6 +1,6 @@
 .cbdFeaturedProducts {
     background-color: $desertStorm;
-    padding-bottom: 120px;
+    padding: 0 5px 120px 5px;
 
     &__wrapper {
         padding-top: 80px;
@@ -25,7 +25,6 @@ img[alt="star"] {
     margin: 0 auto;
     width: 100px;
     height: 20px;
-    // border: 1px solid red;
     position: relative;
 
     &__layer-1 {
@@ -37,30 +36,75 @@ img[alt="star"] {
         height: 100%;
         z-index: 10;
         list-style: none;
-        // border: 1px solid yellow;
     }
 
     &_star {
         display: block;
-        // padding: 1px;
         width: 20px;
         height: 20px;
         cursor: pointer;
-        // border: 1px solid grey;
-    }
-
-    &__layer-2 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: flex;
-        height: 100%;
-        list-style: none;
-        // width: 50%;
-        overflow: hidden;
     }
 }
 
+.rating-10,
+.rating-20,
+.rating-30,
+.rating-40,
+.rating-50,
+.rating-60,
+.rating-70,
+.rating-80,
+.rating-90,
+.rating-100 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    height: 100%;
+    list-style: none;
+    overflow: hidden;
+}
+
+.rating-10 {
+    width: 10%;
+
+}
+
+.rating-20 {
+    width: 20%;
+}
+
+.rating-30 {
+    width: 30%;
+}
+
+.rating-40 {
+    width: 40%;
+}
+
+.rating-50 {
+    width: 50%;
+}
+
+.rating-60 {
+    width: 60%;
+}
+
+.rating-70 {
+    width: 70%;
+}
+
+.rating-80 {
+    width: 80%;
+}
+
+.rating-90 {
+    width: 90%;
+}
+
+.rating-100 {
+    width: 100%;
+}
 
 .card {
     background-color: $white;
@@ -68,6 +112,7 @@ img[alt="star"] {
     max-width: 610px;
 
     &__wrapper {
+        height: 430px;
         padding-top: 37px;
         padding-bottom: 40px;
         border: 1px solid $swampGreen;
@@ -84,14 +129,14 @@ img[alt="star"] {
     }
 
     &__image {
-        margin: 0 auto;
-        height: 260px;
-        width: 400px;
+        display: block;
+        padding: 20px;
+        height: 300px;
 
         & img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
+            margin: 0 auto;
+            max-width: 100%;
+            max-height: 100%;
         }
     }
 
@@ -99,7 +144,6 @@ img[alt="star"] {
         height: 75px;
         display: flex;
         justify-content: space-between;
-
 
         &_wrapper {
             background-color: $Concrete;
@@ -176,7 +220,6 @@ img[alt="star"] {
     top: 565px;
     left: 50%;
     transform: translateX(40px);
-    // z-index: 100;
     background-image: url(../images/arrow-Right.svg);
     width: 40px;
 
@@ -190,7 +233,6 @@ img[alt="star"] {
     }
 
     &:hover {
-        // transform: translateX(75px);
         width: 75px;
         background-repeat: no-repeat;
         transition: all .2s ease-in-out;

@@ -1,9 +1,9 @@
 @import './vars';
 @import './mixin';
 @import './grid';
-@import'./fix-slick';
-@import '../../node_modules/slick-carousel/slick/slick.scss';
+// @import'./fix-slick';
 @import '../../node_modules/slick-carousel/slick/slick-theme.scss';
+@import '../../node_modules/slick-carousel/slick/slick.scss';
 @import './fonts';
 @import './page';
 @import './header';

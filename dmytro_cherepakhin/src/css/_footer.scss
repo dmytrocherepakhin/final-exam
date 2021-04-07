@@ -1,6 +1,7 @@
 .cbdContact {
     background-color: $desertStorm;
     padding-bottom: 40px;
+    position: relative;
 
     &__block-1,
     &__block-3 {
@@ -71,7 +72,6 @@
 
 .cbdContact__form {
     margin: 0 auto;
-    // border: 1px solid red;
 
     &_wrapper {
         border: 2px solid $greenMist;
@@ -124,6 +124,10 @@
 
 }
 
+.cbdContact__block-2_social span {
+    cursor: pointer;
+
+}
 
 .cbdContact__form_input {
     width: 100%;
@@ -132,4 +136,64 @@
 .bdContact__form_submit img {
     width: 26px;
     height: 13px;
+}
+
+@media(max-width:768px) {
+    .cbdContact__block-2 {
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        padding: 0;
+        width: 100%;
+    }
+
+    .cbdContact__block-1 {
+        margin-top: 250px;
+        padding: 0;
+    }
+
+
+    .cbdContact__block-3 {
+        border-top: none;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .cbdContact__block-2::after {
+        position: static;
+    }
+}
+
+.cbdContact__block-2_social {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media(max-width:576px) {
+    .cbdContact__bottom-wrapper {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .cbdContact__form {
+
+        &_submit {
+            display: block;
+            width: 18vw;
+
+            & img {
+                width: 10vw;
+            }
+        }
+
+        &_wrapper {
+
+            &::after {
+                right: 20%;
+            }
+        }
+    }
 }

@@ -10,12 +10,19 @@
         text-transform: uppercase;
         letter-spacing: 6px;
         padding-bottom: 40px;
+
+        @media(max-width:768px) {
+            padding-top: 20px;
+            font-size: 24px;
+            letter-spacing: 3px;
+        }
     }
 
     &__wrapper {
-        width: 570px;
+        max-width: 570px;
+        padding-left: 20px;
+        padding-right: 20px;
         margin: 0 auto;
-
         border-bottom: 1px solid $swampGreen;
     }
 }
@@ -33,6 +40,10 @@
         border-top: 1px solid $swampGreen;
         position: relative;
         cursor: pointer;
+
+        @media (max-width:576px) {
+            letter-spacing: 0;
+        }
 
         &::before {
             position: absolute;
